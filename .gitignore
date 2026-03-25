@@ -1,0 +1,27 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Compiled binaries
+causedeb_collector
+causedeb_replay
+causedeb_analyze
+
+# Trace files (generated at runtime)
+*.log
+
+# Editor / OS artefacts
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
